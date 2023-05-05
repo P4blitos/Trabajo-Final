@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    background-color:rgb(47, 65, 216);
+    color: aliceblue;
+    padding: 12px;
+}
+
+nav ul{
+    background-color: blanchedalmond;
+    /* Ancho de la pantalla*/
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+
+}

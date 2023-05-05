@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom'
+
 import './inicio.css'
 import './img/john_k.jpg'
 import './img/psicoanalista.jpg'
@@ -7,15 +7,7 @@ export const Inicio =()=>{
     return(
         <div>
             <body>
-            <h1>Los mejores libros</h1>
-            <nav>
-            <ul>
-            <li> <a > Inicio </a> </li>
-            <li> <a > Inicio de sesion </a> </li>
-            <li> <a> Libros </a> </li>
-            <li> <a> Ayuda </a> </li>
-            </ul>
-            </nav>
+            
             <section class="contenido">
             <section class="articulos">
             <h2>Libros Populares</h2>
