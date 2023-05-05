@@ -1,4 +1,4 @@
-
+import {Link} from 'reac'
 import './inicio.css'
 import './img/john_k.jpg'
 import './img/psicoanalista.jpg'
