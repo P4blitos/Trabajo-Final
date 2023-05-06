@@ -7,8 +7,8 @@ export const NavBar =()=>{
             <nav>
             <ul>
             <li> <Link to="/">Inicio</Link> </li>
+            <li> <Link to="/libros">Libros</Link>   </li>
             <li> <Link to="/contactanos">Contactanos</Link>  </li>
-            <li> <a> Libros </a> </li>
             <li> <a> Ayuda </a> </li>
             </ul>
             </nav>

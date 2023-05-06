@@ -4,21 +4,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h1{
-    text-align: center;
-    background-color:rgb(47, 65, 216);
-    color: aliceblue;
-    padding: 12px;
-}
 
-nav ul{
-    background-color: blanchedalmond;
-    /* Ancho de la pantalla*/
-    width: 100%;
-    list-style-type: none;
-    text-align: center;
-
-}
 
 nav ul li{
     display:inline-flex; 
@@ -37,10 +23,10 @@ nav li:hover {
 }
 
 img{
-    width: 210px;
+    width: 250px;
     height: 280px;
-    border-radius: 30%;
-    object-fit: cover;
+    border-radius: 5%;
+    /*object-fit: cover;*/
 }
 
 .contenido{
@@ -103,4 +89,16 @@ footer{
 footer p{
     text-align: center;
     padding: 40px;
+}
+
+.redes{
+    padding-top: 20px;
+}
+
+.Instagram img{
+    padding-top: 70px;
+}
+
+.Twitter img{
+    padding-top: 70px;
 }

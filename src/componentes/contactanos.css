@@ -1,0 +1,23 @@
+footer{
+    width: 100%;
+    height: 200px;
+    background-color:rgb(39, 67, 190) ;
+    color: aliceblue;
+    margin-top: 20px;
+    padding-top: 10px;
+    
+}
+
+footer p{
+    text-align: center;
+    padding: 40px;
+}
+
+.Instagram img{
+    max-width:400px;
+    max-height:50%;
+}
+
+.redes{
+    margin:10px;
+}

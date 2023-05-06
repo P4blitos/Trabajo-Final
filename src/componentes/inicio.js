@@ -1,7 +1,9 @@
 
 import './inicio.css'
-import './img/john_k.jpg'
-import './img/psicoanalista.jpg'
+import john from './img/john_k.jpg';
+import psicoanalista from './img/psicoanalista.jpg';
+import jujutsu from './img/Jujutsu-Kaisen-1.png'
+
 
 export const Inicio =()=>{
     return(
@@ -10,7 +12,7 @@ export const Inicio =()=>{
             
             <section class="contenido">
             <section class="articulos">
-            <h2>Libros Populares</h2>
+            <h2>Libro popular</h2>
             <section class="Secciones">
                 <section>
                     
@@ -21,41 +23,51 @@ export const Inicio =()=>{
                      Starks tendrá que emplear toda su astucia y rapidez para, en quince días, averiguar quién es el autor de esa amenazadora misiva que promete hacerle la existencia imposible.</p>
                 </section>
                 <section>
-                    <img src='librosmangas\src\componentes\img\psicoanalista.jpg' alt="psicoanalista"></img>
+                    <div>
+                        <img src={psicoanalista} alt="El psicoanalista" />
+                    </div>
+                    
                 </section>
             </section>
-            <h2>Autores</h2>
+
+            <h2>Manga popular</h2>
             <section class="Secciones">
                 <section>
                     
-                    <h3>John Katzenbach</h3>
-                    <p>Autor americano, John Katzenbach estudió Periodismo antes de dedicarse a la literatura. Su experiencia en el campo de la información criminal y de sucesos en diarios como The Miami Herald o el Miami News le permitió una excelente formación para sus novelas de intriga y misterio.
-                     Además, Katzenbach ha colaborado con otros medios tan prestigiosos como The Philadelphia Enquirer, el Washington Post o el New York Times.</p>
-                     <p>En 1987 decidió abandonar la carrera periodística para dedicarse por completo a la escritura. Katzenbach es conocido por sus novelas de intriga psicológica y grandes dosis de acción que han obtenido un enorme éxito internacional. 
-                        Varias de sus obras han sido llevadas al cine, y, en ocasiones, ha sido él mismo el encargado de elaborar el guion.</p>
+                    <h3>Jujutsu Kaisen</h3>
+                    <p>-Yuuji Itadori, un estudiante de secundaria, que posee una rara habilidad física, pasa sus días visitando a su abuelo que se encontra hospitalizado.
+                     Pero un día, espíritus malditos que duermen en su escuela, se liberan y aparecen criaturas fantasmas. A pesar de ello, Yuuji entra al complejo escolar para salvar a sus compañeros…!</p>
+                    
                 </section>
                 <section>
-                    <img src="librosmangas\src\componentes\img\john_k.jpg" alt="John Katzenbach"></img>
+                    <div>
+                        <img src={jujutsu} alt="Jujutsu Kaisen" />
+                    </div>
+                    
                 </section>
             </section>
+            
         </section>
         <section class="menu_secundario">
-            <h2>Mas libros</h2>
+            <h2>Sugeridos</h2>
             <a>La historia del loco</a>
             <a >Estados unidos de Japón</a>
-            <a >Jaque al psicoanalista</a>
-            <a >Cien años de soledad</a>
-            <a >Al pueblo nunca le toca</a>
-            <a>Percy Jackson: El ladron del rayo</a>
+            <a>Berserk</a>
+            <a>Vinland Saga</a>
             <section class="autores">
-                <h2>M&aacutes autores</h2>
+                <h2>Escritores</h2>
             <a>Gabriel García Márquez</a>
             <a>Dan Brown</a>
             <a >Rick Riordan</a>
-            <a>Alvaro Salom Becerra</a>
-            <a>Blue Jeans</a>
-            <a>James Bowden</a>
             </section>
+
+            <section class="autores">
+                <h2>Mangakas</h2>
+            <a>Kentaro Miura</a>
+            <a>Eiichirō Oda</a>
+            <a >Gege Akutami</a>
+            </section>
+            
             
             
         </section>
