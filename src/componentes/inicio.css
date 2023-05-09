@@ -102,3 +102,31 @@ footer p{
 .Twitter img{
     padding-top: 70px;
 }
+
+.catalogoL{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.catalogoM{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    
+}
+
+.menu_segundo{
+    width: 20%;
+    margin-top: -43%;
+    margin-left: 80%;
+}
+.menu_segundo a{
+    display: block;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+}
