@@ -12,6 +12,7 @@ export const Libros = ()=>{
             <body>
             <section class="articulos">
             <h2>Catalogo libros</h2>
+            
             <section class="catalogoL">
                 <section>           
                     <h3>El Psicoanalista</h3>
