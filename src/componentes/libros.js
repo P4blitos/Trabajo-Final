@@ -26,6 +26,7 @@ export const Libros = ()=>{
                     <img src={lovecraft} alt="Lovecraft" />
                 </section>
                 
+                
             </section>
 
             <h2>Catalogo Mangas</h2>
