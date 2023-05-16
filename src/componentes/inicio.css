@@ -55,6 +55,7 @@ h2{
 
 h3{
     font-size: 30px;
+    color: brown;
 }
 
 .menu_secundario{
@@ -129,4 +130,37 @@ footer p{
     text-align: center;
     color: black;
     margin-bottom: 30px;
+}
+
+.ImgPsico{
+    width: 100%;
+    height: 100%;
+}
+button{
+    background-color:rgb(3, 43, 43);
+    border: none;
+    color: aliceblue;
+    padding: 20px 37px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 5px;
+    margin: 20px;
+    cursor: pointer;
+}
+/* Para cuando pasan por encima*/
+.button:hover{
+    background-color: rgb(51, 16, 85);
+}
+.button:active{
+    background-color: rgb(103, 54, 151);
+}
+
+.Secciones label {
+    display: flex;
+    margin-bottom: 5px; /* Agrega un margen inferior de 5px al label */
+  }
+  
+.Secciones input,
+.Secciones textarea {
+    margin-bottom: 10px; /* Agrega un margen inferior de 10px al input y textarea */
 }

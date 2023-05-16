@@ -2,7 +2,8 @@
 import './inicio.css'
 import john from './img/john_k.jpg';
 import psicoanalista from './img/psicoanalista.jpg';
-import jujutsu from './img/Jujutsu-Kaisen-1.png'
+import jujutsu from './img/Jujutsu-Kaisen-1.png';
+import {Link} from 'react-router-dom';
 
 
 export const Inicio =()=>{
@@ -24,7 +25,7 @@ export const Inicio =()=>{
                 </section>
                 <section>
                     <div>
-                        <img src={psicoanalista} alt="El psicoanalista" />
+                    <Link to="/libros/psicoanalista"> <img src={psicoanalista} alt="El psicoanalista" /></Link>
                     </div>
                     
                 </section>
