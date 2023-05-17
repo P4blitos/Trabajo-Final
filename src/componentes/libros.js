@@ -34,7 +34,7 @@ export const Libros = ()=>{
             <section className='catalogoM'>
                 <section>
                     <h3>Jujutsu Kaisen</h3>
-                    <img src={jujutsu} alt="Jujutsu Kaisen" />
+                    <Link to="/libros/jujutsu"><img src={jujutsu} alt="Jujutsu Kaisen" /></Link>
                 </section>
                 <section>
                     <h3>Berserk</h3>
