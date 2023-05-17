@@ -140,7 +140,7 @@ button{
     background-color:rgb(3, 43, 43);
     border: none;
     color: aliceblue;
-    padding: 20px 37px;
+    padding: 21px 37px;
     text-decoration: none;
     font-size: 30px;
     border-radius: 5px;
@@ -148,11 +148,17 @@ button{
     cursor: pointer;
 }
 /* Para cuando pasan por encima*/
+.button:active{
+    background-color: rgb(103, 54, 151);
+}
+
 .button:hover{
     background-color: rgb(51, 16, 85);
 }
-.button:active{
-    background-color: rgb(103, 54, 151);
+
+.Secciones input,
+.Secciones textarea {
+    margin-bottom: 10px; /* Agrega un margen inferior de 10px al input y textarea */
 }
 
 .Secciones label {
@@ -160,7 +166,3 @@ button{
     margin-bottom: 5px; /* Agrega un margen inferior de 5px al label */
   }
   
-.Secciones input,
-.Secciones textarea {
-    margin-bottom: 10px; /* Agrega un margen inferior de 10px al input y textarea */
-}

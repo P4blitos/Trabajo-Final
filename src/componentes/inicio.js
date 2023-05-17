@@ -37,7 +37,7 @@ export const Inicio =()=>{
                     
                     <h3>Jujutsu Kaisen</h3>
                     <p>-Yuuji Itadori, un estudiante de secundaria, que posee una rara habilidad física, pasa sus días visitando a su abuelo que se encontra hospitalizado.
-                     Pero un día, espíritus malditos que duermen en su escuela, se liberan y aparecen criaturas fantasmas. A pesar de ello, Yuuji entra al complejo escolar para salvar a sus compañeros…!</p>
+                     Pero un día, espíritus malditos que duermen en su escuela, se liberan y aparecen criaturas fantasmas. A pesar de ello, Yuuji entra al complejo escolar para salvar a sus compañeros….!!</p>
                     
                 </section>
                 <section>
@@ -52,21 +52,21 @@ export const Inicio =()=>{
         <section class="menu_secundario">
             <h2>Sugeridos</h2>
             <a>La historia del loco</a>
-            <a >Estados unidos de Japón</a>
+            <a>Estados unidos de Japón</a>
             <a>Berserk</a>
             <a>Vinland Saga</a>
             <section class="autores">
                 <h2>Escritores</h2>
             <a>Gabriel García Márquez</a>
             <a>Dan Brown</a>
-            <a >Rick Riordan</a>
+            <a>Rick Riordan</a>
             </section>
 
             <section class="autores">
                 <h2>Mangakas</h2>
             <a>Kentaro Miura</a>
             <a>Eiichirō Oda</a>
-            <a >Gege Akutami</a>
+            <a>Gege Akutami</a>
             </section>
             
             
