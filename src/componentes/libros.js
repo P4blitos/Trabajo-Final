@@ -20,11 +20,11 @@ export const Libros = ()=>{
                 </section>
                 <section>           
                     <h3>Origen</h3>
-                    <img src={origen} alt="Origen" />
+                    <Link to="/libros/origen"><img src={origen} alt="Origen" /></Link>
                 </section>
                 <section>           
                     <h3>Lovecraft</h3>
-                    <img src={lovecraft} alt="Lovecraft" />
+                    <Link to="/libros/lovecraft"><img src={lovecraft} alt="Lovecraft" /></Link>
                 </section>
                 
                 
