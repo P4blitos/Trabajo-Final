@@ -64,16 +64,10 @@ export const Libro03 =()=>{
         </section>
         
         <section class="menu_secundario">
-            <h2>Sugeridos</h2>
-            <a>La historia del loco</a>
-            <a >Estados unidos de Japón</a>
-            <a>Berserk</a>
-            <a>Vinland Saga</a>
+            
+            <img src={publicidad} alt="Publicidad" />
             <section class="autores">
-                <h2>Escritores</h2>
-            <a>Gabriel García Márquez</a>
-            <a>Dan Brown</a>
-            <a >Rick Riordan</a>
+                <img src={publicidad} alt="Publicidad" />
             </section>
 
             <section>
@@ -86,8 +80,8 @@ export const Libro03 =()=>{
     </section>
 
      <footer>
-        <p>La mente humana es un universo complejo, donde se esconden secretos insondables.</p>
-        <p>- Psicoanalista</p>
+        <p>"El sueño es el escape más allá de las barreras de la realidad; es el portal hacia mundos inimaginables"</p>
+        <p>- El caso de Charles Dexter Ward.</p>
     </footer>
     </body>
         </div>

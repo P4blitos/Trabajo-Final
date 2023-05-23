@@ -11,6 +11,8 @@ import {Manga02} from './componentes/manga02';
 import {Manga03} from './componentes/manga03';
 import {Libro02} from './componentes/libro02.js'
 import {Libro03} from './componentes/libro03';
+import {Ayuda} from './componentes/ayuda';
+import {Construccion} from './componentes/construccion';
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Inicio/>}/>
           <Route path='/contactanos' element={<Contactanos/>}/>
+          <Route path='/ayuda' element={<Ayuda/>}/>
+
           <Route path='/libros' element={<Libros/>}/>
           <Route path='/libros/psicoanalista' element={<Libro01/>}/>
           <Route path='/libros/origen' element={<Libro02/>}/>
@@ -29,6 +33,7 @@ function App() {
           <Route path='/libros/jujutsu' element={<Manga01/>}/>
           <Route path='/libros/berserk' element={<Manga02/>}/>
           <Route path='/libros/onepiece' element={<Manga03/>}/>
+          <Route path='/construccion' element={<Construccion/>}/>
         </Routes>
       
       

@@ -55,24 +55,24 @@ export const Libros = ()=>{
             <a></a>
             <section class="autores">
                 <h2>Escritores</h2>
-            <a>Gabriel García Márquez</a>
-            <a>Dan Brown</a>
-            <a >Rick Riordan</a>
+                <Link to="/construccion"><a>Gabriel García Márquez</a></Link>
+                <Link to="/construccion"><a>Dan Brown</a></Link>
+                <Link to="/construccion"><a >Rick Riordan</a></Link>
             </section>
 
             <section class="autores">
                 <h2>Mangakas</h2>
-            <a>Kentaro Miura</a>
-            <a>Eiichirō Oda</a>
-            <a >Gege Akutami</a>
+                <Link to="/construccion"><a>Kentaro Miura</a></Link>
+                <Link to="/construccion"><a>Eiichirō Oda</a></Link>
+                <Link to="/construccion"><a >Gege Akutami</a></Link>
             </section>
  
         </section>
             
 
                 <footer>
-                    <p>Debes ser mejor que ayer y peor que mañana</p>
-                    <p>- Kaisen</p>
+                    <p>"La felicidad se encuentra en las cosas más simples y extraordinarias"</p>
+                    <p>- El Principito</p>
                 </footer>
             </body>
         </div>

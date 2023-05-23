@@ -64,16 +64,9 @@ export const Manga02 =()=>{
     </section>
     
     <section class="menu_secundario">
-        <h2>Sugeridos</h2>
-        <a>La historia del loco</a>
-        <a >Estados unidos de Japón</a>
-        <a>Berserk</a>
-        <a>Vinland Saga</a>
+        <img src={publicidad} alt="Publicidad" />
         <section class="autores">
-            <h2>Escritores</h2>
-        <a>Gabriel García Márquez</a>
-        <a>Dan Brown</a>
-        <a >Rick Riordan</a>
+            <img src={publicidad} alt="Publicidad" />
         </section>
 
         <section>
@@ -86,8 +79,8 @@ export const Manga02 =()=>{
 </section>
 
  <footer>
-    <p>Eres tan valiente y tranqula, que en ocasiones olvido que sufres.</p>
-    <p>- Ernest Hemingway</p>
+    <p>"El mundo no está lleno de sol y arcoíris. Es un lugar duro y cruel, y por muy fuerte y duro que seas, te dará de golpes y te dejará de rodillas si se lo permites. No es cuántas veces caigas lo que importa, sino cuántas veces te levantes"</p>
+    <p>- Guts</p>
 </footer>
 </body>
     

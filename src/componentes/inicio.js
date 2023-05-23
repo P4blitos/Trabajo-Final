@@ -51,22 +51,22 @@ export const Inicio =()=>{
         </section>
         <section class="menu_secundario">
             <h2>Sugeridos</h2>
-            <a>La historia del loco</a>
-            <a>Estados unidos de Japón</a>
-            <a>Berserk</a>
-            <a>Vinland Saga</a>
+            <Link to="/construccion"><a>La historia del loco</a></Link>
+            <Link to="/construccion"><a>Estados unidos de Japón</a></Link>
+            <Link to="/libros/berserk"><a>Berserk</a></Link>
+            <Link to="/construccion"><a>Vinland Saga</a></Link>
             <section class="autores">
                 <h2>Escritores</h2>
-            <a>Gabriel García Márquez</a>
-            <a>Dan Brown</a>
-            <a>Rick Riordan</a>
+                <Link to="/construccion"><a>Gabriel García Márquez</a></Link>
+                <Link to="/construccion"><a>Dan Brown</a></Link>
+                <Link to="/construccion"><a>Rick Riordan</a></Link>
             </section>
 
             <section class="autores">
                 <h2>Mangakas</h2>
-            <a>Kentaro Miura</a>
-            <a>Eiichirō Oda</a>
-            <a>Gege Akutami</a>
+                <Link to="/construccion"> <a>Kentaro Miura</a></Link>
+                <Link to="/construccion"><a>Eiichirō Oda</a></Link>
+                <Link to="/construccion"><a>Gege Akutami</a></Link>
             </section>
             
             

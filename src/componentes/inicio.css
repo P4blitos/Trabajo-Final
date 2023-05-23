@@ -165,4 +165,19 @@ button{
     display: flex;
     margin-bottom: 5px; /* Agrega un margen inferior de 5px al label */
   }
+
+.sitio-construccion img{
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.pregunta{
+    display: flex;
+    text-align: left;
+    padding-top: 30px;
+    color: royalblue;
+}
   

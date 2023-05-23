@@ -9,7 +9,7 @@ export const NavBar =()=>{
             <li> <Link to="/">Inicio</Link> </li>
             <li> <Link to="/libros">Libros</Link>   </li>
             <li> <Link to="/contactanos">Contactanos</Link>  </li>
-            <li> <a> Ayuda </a> </li>
+            <li> <Link to="/ayuda">Ayuda</Link>  </li>
             </ul>
             </nav>
     </div>

@@ -63,20 +63,13 @@ export const Libro02 = ()=>{
         </section>
         
         <section class="menu_secundario">
-            <h2>Sugeridos</h2>
-            <a>La historia del loco</a>
-            <a >Estados unidos de Japón</a>
-            <a>Berserk</a>
-            <a>Vinland Saga</a>
+        <img src={publicidad} alt="Publicidad" />
             <section class="autores">
-                <h2>Escritores</h2>
-            <a>Gabriel García Márquez</a>
-            <a>Dan Brown</a>
-            <a >Rick Riordan</a>
+            <img src={publicidad} alt="Publicidad" />
             </section>
 
             <section>
-            <img src={publicidad} alt="El psicoanalista" />
+            <img src={publicidad} alt="Publicidad" />
             </section>
             
             
