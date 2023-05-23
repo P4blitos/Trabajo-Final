@@ -42,7 +42,7 @@ export const Inicio =()=>{
                 </section>
                 <section>
                     <div>
-                        <img src={jujutsu} alt="Jujutsu Kaisen" />
+                    <Link to="/libros/jujutsu"><img src={jujutsu} alt="Jujutsu Kaisen" /></Link>
                     </div>
                     
                 </section>

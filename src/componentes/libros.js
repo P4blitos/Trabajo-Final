@@ -38,11 +38,11 @@ export const Libros = ()=>{
                 </section>
                 <section>
                     <h3>Berserk</h3>
-                    <img src={berserk} alt="Berserk" />
+                    <Link to="/libros/berserk"><img src={berserk} alt="Berserk" /></Link>
                 </section>
                 <section>
                     <h3>One piece</h3>
-                    <img src={one_piece} alt="one piece" />
+                    <Link to="/libros/onepiece"><img src={one_piece} alt="one piece" /></Link>
                 </section>
             </section>
         </section>
